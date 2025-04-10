@@ -2,14 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px ;
+    padding: 10px 10% ;
     position: fixed;
     top: 0;
      left:0; 
+    width:"100%";
     color: white;
     z-index: 9999;
     background-color: #282C33;
-  background-color: red;
+ 
   }
   
   .Navbar .links ul {

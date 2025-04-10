@@ -20,13 +20,13 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePages />} />
-        <Route path="/Portofolio/AboutMe" element={<AboutMe />} />
-        <Route path="/Portofolio/AllAboutMe" element={<AllAboutMe />} />
-        <Route path="/Portofolio/Contactme" element={<Contactme />} />
-        <Route path="/Portofolio/FormContact" element={<FormContact />} />
-        <Route path="/Portofolio/Projects" element={<Projects />} />
-        <Route path="/Portofolio/ProjectsAll" element={<ProjectsAll />} />
-        <Route path="/Portofolio/SkilsMe" element={<SkilsMe />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/AllAboutMe" element={<AllAboutMe />} />
+        <Route path="/Contactme" element={<Contactme />} />
+        <Route path="/FormContact" element={<FormContact />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/ProjectsAll" element={<ProjectsAll />} />
+        <Route path="/SkilsMe" element={<SkilsMe />} />
       </Routes>
       <Footer />
     </div>

@@ -23,16 +23,16 @@ const Navbar = () => {
       <div className={`links ${menuOpen ? "open" : ""}`}>
         <ul className="linksul">
           <li>
-            <Link to="/Portofolio">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Portofolio/ProjectsAll">Works</Link>
+            <Link to="/ProjectsAll">Works</Link>
           </li>
           <li>
-            <Link to="/Portofolio/AllAboutMe">About-Me</Link>
+            <Link to="/AllAboutMe">About-Me</Link>
           </li>
           <li>
-            <Link to="/Portofolio/FormContact">Contacts</Link>
+            <Link to="/FormContact">Contacts</Link>
           </li>
         </ul>
       </div>

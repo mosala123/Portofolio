@@ -12,7 +12,7 @@ const HomePages = () => {
     <div className='HomePages container text-light px-3 py-5   '   >
 
 
-      <div className=" container mt-5 " style={{ paddingTop: "50px " }} >
+      <div className=" Projects container mt-5 " style={{ paddingTop: "50px " }} >
         <div className="row      d-flex align-items-center  justify-content-center " style={{ minHeight: "70vh" }}>
           <div className='col-lg-7 col-md-12 col-sm-12 '>
             <div className="typewriter">
@@ -22,7 +22,7 @@ const HomePages = () => {
                 style={{ color: "#c778dd" }}>Frontend Developer
               </span> specializing in  <span style={{ color: "#c778dd" }}> React.js </span>,
                 I build engaging and functional user interfaces that contribute to achieving user goals.</p>
-              <Link to="/FormContact" className='Contactme fs-4 mt-2 mb-4 '>Contact me !</Link>
+              <Link to="/FormContact" className='button1 Contactme fs-4 mt-2 mb-4 '>Contact me !</Link>
             </div>
 
 

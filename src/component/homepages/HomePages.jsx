@@ -9,7 +9,7 @@ import Footer from '../footer/Footer'
 import { Link } from 'react-router-dom'
 const HomePages = () => {
   return (
-    <div className='HomePages container text-light px-3 py-5   '   >
+    <div className='HomePages   text-light px-3 py-5   '   >
 
 
       <div className=" Projects container mt-5 " style={{ paddingTop: "50px " }} >
